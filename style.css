@@ -1,0 +1,65 @@
+body{
+    background-image: url(image/pexels-dom-j-45112.jpg);
+    background-size: cover;
+}
+#expenses{
+    justify-content: center;
+    align-items: center;
+    margin-left: 460px;
+}
+.budget{
+    display: flex;
+    justify-content: center;
+}
+#errorDiv{
+    border: 1px solid red;
+    height: 40px;
+    color: white;
+    background-color: red;
+    display: none;
+    text-align: center;
+    margin-left: 10%;
+}
+#errorDiv2{
+    border: 1px solid red;
+    height: 40px;
+    color: white;
+    background-color: red;
+    display: none;
+    text-align: center;
+    margin-left: 10%;
+
+}
+input{
+    width: 320px !important;
+    margin-top: 5px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:482px) {
+   #expenses{
+    margin-left: 0;
+   }
+   #color{
+    margin-left: 0px !important;
+    width: 100%;
+   } 
+   input{
+    width: 300px !important;
+   }
+   div{
+    width: 90% !important;
+   }
+    
+}

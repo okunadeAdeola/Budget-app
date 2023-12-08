@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+   <h1 id="expenses">Budget Calculator</h1>
+   <hr>
+   <div class="shadow shadow-dark mx-5 mt-4 sm-12" style="height: 540px; width: 350px; border-radius: 29px; box-shadow: inset; background-color: rgba(0, 0, 0, 0.11);" id="color">
+     <div>  <h4>Total Balance: <span id="totalBudget">#1,000,000</span></h4>
+        <h4>Remain balance : <span id="remainder">0</span></h4>    
+            <h4>Daily limit : <span id="dailyLimit">#10,000</span></h4> <br> 
+                <div id="errorDiv">you </div><br>
+                <div id="errorDiv2">spaces can't be empty</div><br>
+                <div class="p-2">
+                <label for="FOOD" id="food">Personal care:like</label>  
+     <div><input type="number"  required class="form-floating form-control" placeholder="Enter amount of the product" id="firstAmount"></div>
+     <label for="">Food:</label>
+     <div><input type="number"  required class="form-floating form-control" placeholder="Enter amount of the product" id="secondAmount"></div>
+     <label for="">Precautional spending:</label>
+    
+     <div><input type="number"  required class="form-floating form-control" placeholder="Enter amount of the product" id="thirdAmount"></div>
+     <label for="">Others:</label>
+     <div><input type="number"  required class="form-floating form-control" placeholder="Enter amount of the product" id="lastAmount"></div>
+     <button class="btn btn-outline-danger pt-2 mt-4 px-5 justify-content-center " style="margin-left: 90px;" onclick="amountValue()">Amount</button>
+    </div>
+     
+   </div>
+<div id="show"></div>
+
+    <script src="script.js"></script>
+    <script src="bootstrap.js"></script>
+</body>
+</html>
